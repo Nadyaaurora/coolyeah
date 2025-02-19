@@ -12,6 +12,7 @@
 Solusi ini diimplementasikan dalam **Pemilihan.java**, dan berikut adalah tangkapan layar hasil program.
 **Hasil output ketika nilai input tidak sesuai ketentuan**
 ![enter image description here](https://i.postimg.cc/CLrZ2mKF/Screenshot-2025-02-19-214128.png)
+
 **Hasil output ketika nilai input sesuai![enter image description here](https://i.postimg.cc/Rhs0jZ4P/Screenshot-2025-02-19-214200.png)**
 
 #### **Penjelasan Singkat:**
@@ -57,7 +58,9 @@ Solusi ini diimplementasikan dalam *Perulangan.java*, dan berikut adalah tangkap
 Solusi ini diimplementasikan dalam **Array.java**, dan di bawah ini adalah hasil tangkapan layar dari program. 
 ![enter image description here](https://i.postimg.cc/htxd7VSc/Screenshot-2025-02-19-220724.png)
 
+
 ![enter image description here](https://i.postimg.cc/KY2g74zL/Screenshot-2025-02-19-220734.png)
+
  **Penjelasan Singkat :**
   Program ini memiliki 4 langkah utama: 
   1. **Memasukkan Data Mata Kuliah** 
