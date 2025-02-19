@@ -11,18 +11,19 @@
 ## 2.2.1 Praktikum Pemilihan
 Solusi ini diimplementasikan dalam **Pemilihan.java**, dan berikut adalah tangkapan layar hasil program.
 **Hasil output ketika nilai input tidak sesuai ketentuan**
+
 ![enter image description here](https://i.postimg.cc/CLrZ2mKF/Screenshot-2025-02-19-214128.png)
 
-**Hasil output ketika nilai input sesuai![enter image description here](https://i.postimg.cc/Rhs0jZ4P/Screenshot-2025-02-19-214200.png)**
+**Hasil output ketika nilai input sesuai!**
+
+[enter image description here](https://i.postimg.cc/Rhs0jZ4P/Screenshot-2025-02-19-214200.png)
 
 #### **Penjelasan Singkat:**
 Program ini memiliki 4 langkah utama dalam menentukan nilai akhir mahasiswa:
 1. **Memasukkan nilai tugas, kuis, UTS, dan UAS**  
    - Pengguna diminta untuk memasukkan empat komponen nilai dengan rentang 0-100.
-
 2. **Memvalidasi input nilai**  
    - Jika ada nilai yang tidak berada dalam rentang 0-100, program akan menampilkan pesan **"Nilai Tidak Valid"** dan tidak akan melanjutkan perhitungan.
-
 3. **Menghitung dan mengonversi nilai akhir**  
    - Nilai akhir dihitung dengan rumus:  
 
@@ -31,7 +32,6 @@ Program ini memiliki 4 langkah utama dalam menentukan nilai akhir mahasiswa:
      ```
 
    - Setelah itu, nilai akhir dikonversi menjadi nilai huruf berdasarkan skala yang ditentukan.
-
 4. **Menentukan status kelulusan**  
    - Jika nilai huruf **A, B+, B, C+, atau C**, mahasiswa **lulus**.  
    - Jika nilai huruf **D atau E**, mahasiswa **tidak lulus**.  
@@ -40,6 +40,7 @@ Program ini memiliki 4 langkah utama dalam menentukan nilai akhir mahasiswa:
 ## 2.3.1 Praktikum Perulangan
 Solusi ini diimplementasikan dalam *Perulangan.java*, dan berikut adalah tangkapan layar hasil outputnya. 
 ![enter image description here](https://i.postimg.cc/43Bjv75F/Screenshot-2025-02-19-215021.png)
+ 
  **Penjelasan Singkat:** 
  Program ini memiliki **3 langkah utama** dalam menampilkan pola berdasarkan NIM: 
  1. **Memasukkan NIM** 
@@ -64,7 +65,7 @@ Solusi ini diimplementasikan dalam **Array.java**, dan di bawah ini adalah hasil
  **Penjelasan Singkat :**
   Program ini memiliki 4 langkah utama: 
   1. **Memasukkan Data Mata Kuliah** 
-	  - Pengguna diminta untuk memasukkan nama mata kuliah, jumlah SKS, dan nilai huruf untuk 8 mata kuliah. 
+	- Pengguna diminta untuk memasukkan nama mata kuliah, jumlah SKS, dan nilai huruf untuk 8 mata kuliah. 
   2. **Melakukan Validasi dan Konversi Nilai** 
 	  - Program mengecek nilai huruf yang dimasukkan dan mengonversinya menjadi bobot nilai sesuai dengan skala 4. 
   3. **Menghitung Total Bobot Nilai** 
@@ -75,6 +76,7 @@ Solusi ini diimplementasikan dalam **Array.java**, dan di bawah ini adalah hasil
 ## 2.5.1 Praktikum Fungsi
 Solusi ini diimplementasikan dalam **Fungsi.java**, dan di bawah ini adalah hasil tangkapan layar dari program. 
 ![enter image description here](https://i.postimg.cc/XqCVDc1v/Screenshot-2025-02-19-221546.png)
+
 **Penjelasan Singkat :** 
 Terdapat 2 langkah utama dalam program ini: 
 1. **Menghitung Pendapatan** 
