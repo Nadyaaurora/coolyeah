@@ -68,7 +68,7 @@ Program ini memiliki 2 langkah utama:
 1. Menghitung pendapatan setiap cabang RoyalGarden jika semua stok bunga terjual berdasarkan harga masing-masing bunga.
  2. Memperbarui Stok Cabang RoyalGarden 4 setelah memperhitungkan bunga yang mati.
 
----
+----
 # TUGAS
 
 ### TUGAS 1 
@@ -95,7 +95,7 @@ Program ini terdiri dari 3 langkah utama:
 2.  Memasukkan panjang sisi kubus yang akan dihitung.
 3.  Menghitung dan menampilkan hasil sesuai pilihan pengguna.
 
-## TUGAS 3
+### TUGAS 3
 
 Solusi ini diimplementasikan dalam **Tugas3.java**, dan berikut hasilnya.
 
