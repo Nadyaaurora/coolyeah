@@ -4,7 +4,7 @@
 |NIM  | 244107020034  |
 |Nama | Nadya Aurora Gebi Agista |
 |Kelas | TI - 1H |
-|Repository| [enter link description here](https://github.com/Nadyaaurora/coolyeah.git)
+|Repository| [link] (https://github.com/Nadyaaurora/coolyeah.git)
 
 # JOBSHEET 1 KONSEP DASAR PEMROGRAMAN
 
