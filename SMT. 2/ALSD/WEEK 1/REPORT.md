@@ -4,19 +4,20 @@
 |NIM  | 244107020034  |
 |Nama | Nadya Aurora Gebi Agista |
 |Kelas | TI - 1H |
-|Repository| [enter link description here](https://github.com/Nadyaaurora/coolyeah)
+|Repository| (https://github.com/Nadyaaurora/coolyeah)
 
 # JOBSHEET 1 KONSEP DASAR PEMROGRAMAN
 
 ## 2.2.1 Praktikum Pemilihan
 Solusi ini diimplementasikan dalam **Pemilihan.java**, dan berikut adalah tangkapan layar hasil program.
+
 **Hasil output ketika nilai input tidak sesuai ketentuan**
 
 ![enter image description here](https://i.postimg.cc/CLrZ2mKF/Screenshot-2025-02-19-214128.png)
 
-**Hasil output ketika nilai input sesuai!**
+**Hasil output ketika nilai input sesuai**
 
-[enter image description here](https://i.postimg.cc/Rhs0jZ4P/Screenshot-2025-02-19-214200.png)
+![enter image description here](https://i.postimg.cc/Rhs0jZ4P/Screenshot-2025-02-19-214200.png)
 
 #### **Penjelasan Singkat:**
 Program ini memiliki 4 langkah utama dalam menentukan nilai akhir mahasiswa:

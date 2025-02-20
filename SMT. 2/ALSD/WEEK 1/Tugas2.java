@@ -33,7 +33,7 @@ public class Tugas2 {
             } else {
                 System.out.println("Pilihan tidak valid.");
             }
-            System.out.println("Apakah ingin menghitung lagi? (y/n): ");
+            System.out.print("Apakah ingin menghitung lagi? (y/n): ");
         } while (sc.next().equalsIgnoreCase("y"));
         System.out.println("Terima kasih! Program selesai.");
     }
