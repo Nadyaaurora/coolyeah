@@ -85,7 +85,7 @@ Program ini terdiri dari 3 langkah utama :
 2.  Mencocokkan kode dengan daftar kota
 3.  Menampilkan hasil
 
-### KUBUS
+### 2. KUBUS
 Solusi ini diimplementasikan dalam **Tugas2.java**, dan berikut hasilnya.
 
 ![enter image description here](https://i.postimg.cc/jd9B5rdP/Screenshot-2025-02-20-080511.png)
@@ -98,7 +98,7 @@ Program ini terdiri dari 3 langkah utama :
 3. Menghitung dan menampilkan hasil berdasarkan pilihan yang dipilih.
 4. Menanyakan ulang apakah ingin menghitung lagi atau keluar dari program.
 
-### JADWAL KULIAH
+### 3. JADWAL KULIAH
 
 Solusi ini diimplementasikan dalam **Tugas3.java**, dan berikut hasilnya.
 
