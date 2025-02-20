@@ -36,7 +36,7 @@ Solusi ini diimplementasikan dalam *Perulangan.java*, dan berikut adalah tangkap
 
  Program ini memiliki **3 langkah utama** dalam menampilkan pola berdasarkan NIM: 
 1. Memasukkan NIM
-2. Menentukan nilai n
+2. Menentukan nilai `n`
 3. Melakukan perulangan dari 1 hingga `n`, dengan aturan:
 	-   Jika angka adalah 6 atau 10, maka dilewati (`continue`).
 	-   Jika angka genap, ditampilkan angka tersebut.
@@ -67,7 +67,7 @@ Solusi ini diimplementasikan dalam **Fungsi.java**, dan di bawah ini adalah hasi
 Program ini memiliki 2 langkah utama: 
 1. Menghitung pendapatan setiap cabang RoyalGarden jika semua stok bunga terjual berdasarkan harga masing-masing bunga.
  2. Memperbarui Stok Cabang RoyalGarden 4 setelah memperhitungkan bunga yang mati.
-
+``
 ## TUGAS
 ### TUGAS 1 
 Solusi ini diimplementasikan dalam **Tugas1.java**, dan berikut hasilnya.
