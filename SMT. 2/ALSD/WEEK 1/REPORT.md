@@ -4,7 +4,7 @@
 |NIM  | 244107020034  |
 |Nama | Nadya Aurora Gebi Agista |
 |Kelas | TI - 1H |
-|Repository| [enter link description here](https://github.com/Nadyaaurora/coolyeah)
+|Repository| [enter link description here](https://github.com/Nadyaaurora/coolyeah.git)
 
 # JOBSHEET 1 KONSEP DASAR PEMROGRAMAN
 
@@ -68,10 +68,10 @@ Program ini memiliki 2 langkah utama:
 1. Menghitung pendapatan setiap cabang RoyalGarden jika semua stok bunga terjual berdasarkan harga masing-masing bunga.
  2. Memperbarui Stok Cabang RoyalGarden 4 setelah memperhitungkan bunga yang mati.
 
-----
+
 # TUGAS
 
-### TUGAS 1 
+### 1. KODE PLAT NOMOR
 Solusi ini diimplementasikan dalam **Tugas1.java**, dan berikut hasilnya.
 
 ![enter image description here](https://i.postimg.cc/MKGWCxvS/Screenshot-2025-02-20-072246.png)
@@ -83,7 +83,7 @@ Program ini terdiri dari 3 langkah utama:
 2.  Mencocokkan kode dengan daftar kota
 3.  Menampilkan hasil
 
-### TUGAS 2
+### KUBUS
 Solusi ini diimplementasikan dalam **Tugas2.java**, dan berikut hasilnya.
 
 ![enter image description here](https://i.postimg.cc/jd9B5rdP/Screenshot-2025-02-20-080511.png)
@@ -95,7 +95,7 @@ Program ini terdiri dari 3 langkah utama:
 2.  Memasukkan panjang sisi kubus yang akan dihitung.
 3.  Menghitung dan menampilkan hasil sesuai pilihan pengguna.
 
-### TUGAS 3
+### JADWAL KULIAH
 
 Solusi ini diimplementasikan dalam **Tugas3.java**, dan berikut hasilnya.
 
