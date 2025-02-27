@@ -35,6 +35,7 @@ public class Mahasiswa19 {
         }
     }
     public Mahasiswa19() {
+        
     }
 
     public Mahasiswa19(String nama, String nim, double ipk, String kelas) {
