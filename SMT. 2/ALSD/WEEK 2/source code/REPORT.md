@@ -47,7 +47,7 @@
     Nama objek yang dihasilkan adalah `mhs1`
 
 2.  - Untuk mengakses atribut dari suatu objek, gunakan dot notation (.) dengan sintaks: namaObjek.namaAtribut
-- Untuk mengakses method dari suatu objek, gunakan dot notation (.) diikuti dengan tanda kurung () untuk memanggilnya: namaObjek.namaMethod()
+    - Untuk mengakses method dari suatu objek, gunakan dot notation (.) diikuti dengan tanda kurung () untuk memanggilnya: namaObjek.namaMethod()
 3. Hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda karena ada perubahan pada atribut objek mhs1.
 Setelah pemanggilan pertama, method ubahKelas("SI 2K") mengubah nilai atribut kelas, dan updateIpk(3.60) mengubah nilai atribut ipk. Sehingga, saat tampilkanInformasi() dipanggil kedua kali, atribut yang ditampilkan sudah diperbarui.
 
@@ -56,7 +56,8 @@ Setelah pemanggilan pertama, method ubahKelas("SI 2K") mengubah nilai atribut ke
 ![enter image description here](https://i.ibb.co.com/9k1PNZ9h/Screenshot-2025-02-26-190927.png)
 
 ### 2.3.3 Pertanyaan
-1. ```java
+1. Konstruktor Berparameter
+```java
 public  Mahasiswa19(String  nama, String  nim, double  ipk, String  kelas) {
 this.nama  =  nama;
 this.nim  =  nim;
@@ -64,12 +65,11 @@ this.ipk  =  ipk;
 this.kelas  =  kelas;
 }
 ```
-
 2. Baris program tersebut membuat objek mhs2 dari class Mahasiswa19 dengan memanggil konstruktor berparameter. Saat objek dibuat, atribut nama, nim, ip, dan kelas langsung diinisialisasi dengan nilai yang diberikan. Setelah itu, objek mhs2 bisa digunakan dalam program.
 3. Jika konstruktor default dihapus, program akan error saat membuat objek tanpa parameter. Hal ini terjadi karena ketika ada konstruktor berparameter, sistem tidak lagi menyediakan konstruktor default secara otomatis, sehingga setiap objek harus dibuat dengan memberikan parameter yang sesuai.
 4. Tidak, method dalam class Mahasiswa tidak harus diakses secara berurutan. Method dapat dipanggil sesuai kebutuhan, karena setiap method bekerja secara independen dan tidak bergantung pada urutan pemanggilan, kecuali jika ada hubungan logis di antara mereka, seperti mengubah data sebelum menampilkannya.
-
-5.  ```java
+5. Object baru dengan konstruktor berparameter
+```java
 Mahasiswa19  mhsNadya  =  new  Mahasiswa19("Nadya Aurora Gebi Agista", "244107020034", 3.81, "TI 1H");
 ```
 
