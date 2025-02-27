@@ -57,21 +57,21 @@ Setelah pemanggilan pertama, method ubahKelas("SI 2K") mengubah nilai atribut ke
 
 ### 2.3.3 Pertanyaan
 1. Konstruktor Berparameter
-```java
-public  Mahasiswa19(String  nama, String  nim, double  ipk, String  kelas) {
-this.nama  =  nama;
-this.nim  =  nim;
-this.ipk  =  ipk;
-this.kelas  =  kelas;
-}
-```
+    ```java
+    public  Mahasiswa19(String  nama, String  nim, double  ipk, String  kelas) {
+    this.nama  =  nama;
+    this.nim  =  nim;
+    this.ipk  =  ipk;
+    this.kelas  =  kelas;
+    }
+    ```
 2. Baris program tersebut membuat objek mhs2 dari class Mahasiswa19 dengan memanggil konstruktor berparameter. Saat objek dibuat, atribut nama, nim, ip, dan kelas langsung diinisialisasi dengan nilai yang diberikan. Setelah itu, objek mhs2 bisa digunakan dalam program.
 3. Jika konstruktor default dihapus, program akan error saat membuat objek tanpa parameter. Hal ini terjadi karena ketika ada konstruktor berparameter, sistem tidak lagi menyediakan konstruktor default secara otomatis, sehingga setiap objek harus dibuat dengan memberikan parameter yang sesuai.
 4. Tidak, method dalam class Mahasiswa tidak harus diakses secara berurutan. Method dapat dipanggil sesuai kebutuhan, karena setiap method bekerja secara independen dan tidak bergantung pada urutan pemanggilan, kecuali jika ada hubungan logis di antara mereka, seperti mengubah data sebelum menampilkannya.
 5. Object baru dengan konstruktor berparameter
-```java
-Mahasiswa19  mhsNadya  =  new  Mahasiswa19("Nadya Aurora Gebi Agista", "244107020034", 3.81, "TI 1H");
-```
+    ```java
+    Mahasiswa19  mhsNadya  =  new  Mahasiswa19("Nadya Aurora Gebi Agista", "244107020034", 3.81, "TI 1H");
+    ```
 
 ## LATIHAN PRAKTIKUM
 1. Solusi ini diimplementasikan dalam **MataKuliah19.java** dan **MataKuliahMain19.java** dan berikut adalah tangkapan layar hasil program :
@@ -85,7 +85,7 @@ Mahasiswa19  mhsNadya  =  new  Mahasiswa19("Nadya Aurora Gebi Agista", "24410702
     -  Jika jumlah jam yang dikurangi melebihi jam yang tersedia, akan muncul pesan error.
     -  Menampilkan informasi akhir setelah perubahan dilakukan.
 
-2. Solusi ini diimplementasikan dalam **	Dosen19.java** dan **DosenMain19.java** dan berikut adalah tangkapan layar hasil program :
+2. Solusi ini diimplementasikan dalam **Dosen19.java** dan **DosenMain19.java** dan berikut adalah tangkapan layar hasil program :
 ![enter image description here](https://i.postimg.cc/KcfvsZVg/Screenshot-2025-02-27-231850.png)
 
     Langkah-langkah utama dalam program ini:
