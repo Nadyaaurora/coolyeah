@@ -1,5 +1,4 @@
 public class Mahasiswa19 {
-
     String nama;
     String nim;
     String kelas;
