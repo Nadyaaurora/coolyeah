@@ -16,7 +16,7 @@ public class DosenMain19 {
         Dosen19 d2 = new Dosen19("D020", "Prof. Budi Santoso", true, 2010, "Jaringan Komputer");
 
         d2.tampilInformasi();
-        d2.ubahKeahlian("Jaringan Komputer");
+        d2.ubahKeahlian("Bahasa Inggris");
         System.out.println("\nMasa kerja: " + d2.hitungMasaKerja(2020) + " tahun");
         d2.tampilInformasi();
     }
