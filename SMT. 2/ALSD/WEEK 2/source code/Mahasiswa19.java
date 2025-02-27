@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Mahasiswa19 {
 
     String nama;
