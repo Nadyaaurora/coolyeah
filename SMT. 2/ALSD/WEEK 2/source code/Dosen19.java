@@ -29,7 +29,7 @@ public class Dosen19 {
 
     void setStatusAktif(boolean status) {
         statusAktif = status;
-        System.out.println("\n[INFO] Status aktif dosen telah diubah.");
+        System.out.println("[INFO] Status aktif dosen telah diubah.");
     }
 
     int hitungMasaKerja(int tahunSekarang) {
@@ -38,6 +38,6 @@ public class Dosen19 {
 
     void ubahKeahlian(String bidangKeahlianBaru) {
         bidangKeahlian = bidangKeahlianBaru;
-        System.out.println("\n[INFO] Bidang keahlian telah diubah.");
+        System.out.println("[INFO] Bidang keahlian telah diubah.");
     }
 }
