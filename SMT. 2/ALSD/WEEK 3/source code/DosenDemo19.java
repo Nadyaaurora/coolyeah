@@ -16,7 +16,7 @@ public class DosenDemo19 {
             nama = sc.nextLine();
             System.out.print("Jenis Kelamin : ");
             String gender = sc.nextLine();
-            jenisKelamin = gender.equalsIgnoreCase("L");
+            jenisKelamin = gender.equalsIgnoreCase("Pria");
             System.out.print("Usia          : ");
             usia = sc.nextInt();
             sc.nextLine();
