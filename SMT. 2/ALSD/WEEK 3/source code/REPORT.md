@@ -26,15 +26,15 @@
 
 ### 3.3.3 Pertanyaan
 1.  Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
-``` java
-void  cetakInfo() {
-	System.out.println("NIM : "  +  nim);
-	System.out.println("NAMA : "  +  nama);
-	System.out.println("KELAS : "  +  kelas);
-	System.out.println("IPK : "  +  ipk);
-	System.out.println("----------------------");
-}
-```
+    ``` java
+    void  cetakInfo() {
+        System.out.println("NIM : "  +  nim);
+        System.out.println("NAMA : "  +  nama);
+        System.out.println("KELAS : "  +  kelas);
+        System.out.println("IPK : "  +  ipk);
+        System.out.println("----------------------");
+    }
+    ```
 2. Error terjadi karena setiap elemen array belum diinisialisasi sebagai objek Mahasiswa.
 
 ## 3.4 Constructor Berparameter
@@ -57,39 +57,49 @@ void  cetakInfo() {
 	```
 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
 
-![enter image description here](https://i.postimg.cc/2ShGdYhc/Screenshot-2025-03-06-222653.png)
+    ![enter image description here](https://i.postimg.cc/2ShGdYhc/Screenshot-2025-03-06-222653.png)
 
-![enter image description here](https://i.postimg.cc/L6M3H7rj/Screenshot-2025-03-06-223026.png)
+
+    ![enter image description here](https://i.postimg.cc/L6M3H7rj/Screenshot-2025-03-06-223026.png)
 
 
 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
 
-![enter image description here](https://i.postimg.cc/CLQMCTSq/Screenshot-2025-03-06-223505.png)
+    ![enter image description here](https://i.postimg.cc/CLQMCTSq/Screenshot-2025-03-06-223505.png)
 
-![enter image description here](https://i.postimg.cc/pdN27f9V/Screenshot-2025-03-06-223516.png)
+    ![enter image description here](https://i.postimg.cc/pdN27f9V/Screenshot-2025-03-06-223516.png)
 
 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
 
-![enter image description here](https://i.postimg.cc/3Js5JK3n/Screenshot-2025-03-06-224024.png)
+    ![enter image description here](https://i.postimg.cc/3Js5JK3n/Screenshot-2025-03-06-224024.png)
 
 ## TUGAS
 1.  Solusi ini diimplementasikan dalam **Dosen19.java** dan **DosenMain19.java**, dan berikut adalah tangkapan layar hasil program:
 
-![enter image description here](https://i.postimg.cc/6QWLxv4R/Screenshot-2025-03-06-213744.png)
+    ![enter image description here](https://i.postimg.cc/6QWLxv4R/Screenshot-2025-03-06-213744.png)
 
 Langkah-langkah utama dalam program ini :
+
 	1.    Menginput data dosen, termasuk kode, nama, jenis kelamin, dan usia.
+
 	2. Menyimpan data dosen dalam array untuk diolah lebih lanjut.
+
 	3. Menampilkan seluruh data dosen yang telah dimasukkan, termasuk informasi jenis kelamin yang dikonversi menjadi "Pria" atau "Wanita".
 
 2. Solusi ini diimplementasikan dalam **Dosen19.java**, **DosenDemo19.java**, dan **DataDosen19.java**. Berikut hasil program:
 
-![enter image description here](https://i.postimg.cc/T1sLFyMV/Screenshot-2025-03-06-220704.png)
+    ![enter image description here](https://i.postimg.cc/T1sLFyMV/Screenshot-2025-03-06-220704.png)
 
-![enter image description here](https://i.postimg.cc/4ypyLWPg/Screenshot-2025-03-06-220713.png)
+    ![enter image description here](https://i.postimg.cc/4ypyLWPg/Screenshot-2025-03-06-220713.png)
+
 Langkah-langkah utama dalam program ini :
+
 	1.  Menginput data dosen (kode, nama, jenis kelamin, usia) dan menyimpannya dalam array.
+
 	2.  Menampilkan seluruh data dosen yang telah dimasukkan.
+
 	3.  Menghitung jumlah dosen berdasarkan jenis kelamin (Pria/Wanita).
+
 	4.  Menghitung rata-rata usia dosen berdasarkan jenis kelamin, dengan hasil ditampilkan hingga dua angka di belakang koma.
+
 	5.  Menampilkan dosen paling tua dan paling muda berdasarkan usia.
