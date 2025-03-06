@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class DosenDemo19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -24,20 +25,20 @@ public class DosenDemo19 {
             daftarDosen[i] = new Dosen19(kode, nama, jenisKelamin, usia);
         }
 
-        int i = 1;
-        for (Dosen19 dosen : daftarDosen) {
-            System.out.println("Data Dosen ke-" + i);
-            System.out.println("Kode          : " + dosen.kode);
-            System.out.println("Nama          : " + dosen.nama);
-            System.out.print("Jenis Kelamin : ");
-            if (dosen.jenisKelamin) {
-                System.out.println("Pria");
-            } else {
-                System.out.println("Wanita");
-            }
-            System.out.println("Usia          : " + dosen.usia);
-            System.out.println("------------------------------------");
-            i++;
-        }
+        DataDosen19 dataDosen = new DataDosen19();
+        System.out.println("====== DATA SEMUA DOSEN ======");
+        dataDosen.dataSemuaDosen(daftarDosen);
+
+        System.out.println("\n====== JUMLAH DOSEN PER JENIS KELAMIN ======");
+        dataDosen.jumlahDosenPerJenisKelamin(daftarDosen);
+
+        System.out.println("\n====== RATA-RATA USIA DOSEN PER JENIS KELAMIN ======");
+        dataDosen.rerataUsiaDosenPerJenisKelamin(daftarDosen);
+
+        System.out.println("\n====== DOSEN PALING TUA ======");
+        dataDosen.infoDosenPalingTua(daftarDosen);
+
+        System.out.println("\n====== DOSEN PALING MUDA ======");
+        dataDosen.infoDosenPalingMuda(daftarDosen);
     }
 }
