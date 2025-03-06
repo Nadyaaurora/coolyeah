@@ -79,8 +79,7 @@
     ![enter image description here](https://i.postimg.cc/6QWLxv4R/Screenshot-2025-03-06-213744.png)
 
 Langkah-langkah utama dalam program ini :
-
-	1.    Menginput data dosen, termasuk kode, nama, jenis kelamin, dan usia.
+	1. Menginput data dosen, termasuk kode, nama, jenis kelamin, dan usia.
 
 	2. Menyimpan data dosen dalam array untuk diolah lebih lanjut.
 
@@ -93,7 +92,6 @@ Langkah-langkah utama dalam program ini :
     ![enter image description here](https://i.postimg.cc/4ypyLWPg/Screenshot-2025-03-06-220713.png)
 
 Langkah-langkah utama dalam program ini :
-
 	1.  Menginput data dosen (kode, nama, jenis kelamin, usia) dan menyimpannya dalam array.
 
 	2.  Menampilkan seluruh data dosen yang telah dimasukkan.
