@@ -78,11 +78,11 @@
 
     ![enter image description here](https://i.postimg.cc/6QWLxv4R/Screenshot-2025-03-06-213744.png)
 
-Langkah-langkah utama dalam program ini :
+    Langkah-langkah utama dalam program ini :
 
-- Menginput data dosen, termasuk kode, nama, jenis kelamin, dan usia.
-- Menyimpan data dosen dalam array untuk diolah lebih lanjut.
-- Menampilkan seluruh data dosen yang telah dimasukkan, termasuk informasi jenis kelamin yang dikonversi menjadi "Pria" atau "Wanita".
+    - Menginput data dosen, termasuk kode, nama, jenis kelamin, dan usia.
+    - Menyimpan data dosen dalam array untuk diolah lebih lanjut.
+    - Menampilkan seluruh data dosen yang telah dimasukkan, termasuk informasi jenis kelamin yang dikonversi menjadi "Pria" atau "Wanita".
 
 2. Solusi ini diimplementasikan dalam **Dosen19.java**, **DosenDemo19.java**, dan **DataDosen19.java**. Berikut hasil program:
 
@@ -90,10 +90,10 @@ Langkah-langkah utama dalam program ini :
 
     ![enter image description here](https://i.postimg.cc/4ypyLWPg/Screenshot-2025-03-06-220713.png)
 
-Langkah-langkah utama dalam program ini :
+    Langkah-langkah utama dalam program ini :
 
-- Menginput data dosen (kode, nama, jenis kelamin, usia) dan menyimpannya dalam array.
-- Menampilkan seluruh data dosen yang telah dimasukkan.
-- Menghitung jumlah dosen berdasarkan jenis kelamin (Pria/Wanita).
-- Menghitung rata-rata usia dosen berdasarkan jenis kelamin, dengan hasil ditampilkan hingga dua angka di belakang koma.
-- Menampilkan dosen paling tua dan paling muda berdasarkan usia.
+    - Menginput data dosen (kode, nama, jenis kelamin, usia) dan menyimpannya dalam array.
+    - Menampilkan seluruh data dosen yang telah dimasukkan.
+    - Menghitung jumlah dosen berdasarkan jenis kelamin (Pria/Wanita).
+    - Menghitung rata-rata usia dosen berdasarkan jenis kelamin, dengan hasil ditampilkan hingga dua angka di belakang koma.
+    - Menampilkan dosen paling tua dan paling muda berdasarkan usia.
