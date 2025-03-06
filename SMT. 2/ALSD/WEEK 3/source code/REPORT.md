@@ -76,7 +76,7 @@
 ## TUGAS
 1.  Solusi ini diimplementasikan dalam **Dosen19.java** dan **DosenMain19.java**, dan berikut adalah tangkapan layar hasil program:
 
-    ![enter image description here](https://i.postimg.cc/6QWLxv4R/Screenshot-2025-03-06-213744.png)
+    ![enter image description here](https://i.postimg.cc/7LGbpPYD/Screenshot-2025-03-06-233411.png)
 
     Langkah-langkah utama dalam program ini :
 
@@ -86,9 +86,9 @@
 
 2. Solusi ini diimplementasikan dalam **Dosen19.java**, **DosenDemo19.java**, dan **DataDosen19.java**. Berikut hasil program:
 
-    ![enter image description here](https://i.postimg.cc/T1sLFyMV/Screenshot-2025-03-06-220704.png)
+    ![enter image description here](https://i.postimg.cc/J09k2yZf/Screenshot-2025-03-06-232836.png)
 
-    ![enter image description here](https://i.postimg.cc/4ypyLWPg/Screenshot-2025-03-06-220713.png)
+    ![enter image description here](https://i.postimg.cc/y8CRhZV9/Screenshot-2025-03-06-232843.png)
 
     Langkah-langkah utama dalam program ini :
 
