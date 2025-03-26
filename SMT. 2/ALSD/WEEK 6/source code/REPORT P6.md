@@ -37,10 +37,10 @@ Dalam algoritma **Insertion Sort**, data dibagi menjadi dua bagian:
 	* Bagian yang sudah terurut (di sebelah kiri).
 	* Bagian yang belum terurut (di sebelah kanan).
 
-Prosesnya dilakukan dengan mengambil satu elemen dari bagian yang belum terurut, lalu membandingkannya dengan elemen-elemen di bagian yang sudah terurut untuk disisipkan ke posisi yang benar. Perulangan `while` ini menentukan kapan elemen-elemen dalam bagian yang sudah terurut harus digeser ke kanan untuk memberikan tempat bagi elemen yang akan disisipkan.
+    Prosesnya dilakukan dengan mengambil satu elemen dari bagian yang belum terurut, lalu membandingkannya dengan elemen-elemen di bagian yang sudah terurut untuk disisipkan ke posisi yang benar. Perulangan `while` ini menentukan kapan elemen-elemen dalam bagian yang sudah terurut harus digeser ke kanan untuk memberikan tempat bagi elemen yang akan disisipkan.
 
-	-   `j` digunakan untuk menunjuk elemen-elemen yang akan dibandingkan. 
-	-   `i` digunakan untuk mengambil nilai `temp`, yaitu elemen dari bagian yang belum terurut yang akan ditempatkan pada posisi yang benar. Dengan cara ini, elemen yang lebih besar akan terus digeser ke kanan hingga ditemukan posisi yang tepat untuk `temp`, sehingga data tetap terurut secara bertahap.
+	* `j` digunakan untuk menunjuk elemen-elemen yang akan dibandingkan. 
+	* `i` digunakan untuk mengambil nilai `temp`, yaitu elemen dari bagian yang belum terurut yang akan ditempatkan pada posisi yang benar. Dengan cara ini, elemen yang lebih besar akan terus digeser ke kanan hingga ditemukan posisi yang tepat untuk `temp`, sehingga data tetap terurut secara bertahap.
 
 4. Tujuannya adalah untuk menggeser nilai pada indeks `j` ke indeks `j + 1` dalam array agar memberi ruang bagi elemen yang akan disisipkan di posisi yang benar dalam proses Insertion Sort.
 
@@ -52,15 +52,15 @@ Prosesnya dilakukan dengan mengambil satu elemen dari bagian yang belum terurut,
 #### 5.3.4 Pertanyaan
 1.  **a. Mengapa syarat dari perulangan i adalah i < listMhs.length-1 ?**
 
-		Syarat dari perulangan i adalah i < listMhs.length - 1 karena dalam algoritma Bubble Sort, kita hanya perlu melakukan n-1 iterasi untuk mengurutkan n elemen. Hal ini karena setelah n-1 iterasi, elemen terbesar sudah berada di posisi yang benar.
+	Syarat dari perulangan i adalah i < listMhs.length - 1 karena dalam algoritma Bubble Sort, kita hanya perlu melakukan n-1 iterasi untuk mengurutkan n elemen. Hal ini karena setelah n-1 iterasi, elemen terbesar sudah berada di posisi yang benar.
 
 	**b. Mengapa syarat dari perulangan j adalah j < listMhs.length-i ?**
 
-		Syarat dari perulangan j adalah j < listMhs.length - i karena setelah setiap iterasi i, elemen terbesar dari iterasi tersebut sudah berada di posisi akhir yang benar. Sehingga, kita tidak perlu membandingkan kembali elemen tersebut dalam iterasi selanjutnya.
+	Syarat dari perulangan j adalah j < listMhs.length - i karena setelah setiap iterasi i, elemen terbesar dari iterasi tersebut sudah berada di posisi akhir yang benar. Sehingga, kita tidak perlu membandingkan kembali elemen tersebut dalam iterasi selanjutnya.
 
 	**c. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh?**
-    
-		Perulangan i akan berlangsung sebanyak 49 kali (karena i < 50 - 1 → i < 49). Tahap Bubble Sort yang ditempuh juga sebanyak 49 tahap, karena dalam setiap tahap, elemen terbesar dari bagian yang belum terurut akan dipindahkan ke posisi yang benar.
+
+	Perulangan i akan berlangsung sebanyak 49 kali (karena i < 50 - 1 → i < 49). Tahap Bubble Sort yang ditempuh juga sebanyak 49 tahap, karena dalam setiap tahap, elemen terbesar dari bagian yang belum terurut akan dipindahkan ke posisi yang benar.
 2. Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri dari nim, nama, kelas, dan ipk!
 	```java
 	import java.util.Scanner;
@@ -115,17 +115,17 @@ Proses tersebut bertujuan untuk mencari nilai IPK terkecil dari `listMhs` dalam 
 #### 5.4.3 Pertanyaan
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
 
-        ```java
-        for (int  i  =  1; i  <  listMhs.length; i++) {
-            Mahasiswa19  tmp  =  listMhs[i];
-            int  j  =  i;
-            while (j  >  0  &&  listMhs[j  -  1].ipk  <  tmp.ipk) {
-                listMhs[j] =  listMhs[j  -  1];
-                j--;
-            }
-            listMhs[j] =  tmp;
+    ```java
+    for (int  i  =  1; i  <  listMhs.length; i++) {
+        Mahasiswa19  tmp  =  listMhs[i];
+        int  j  =  i;
+        while (j  >  0  &&  listMhs[j  -  1].ipk  <  tmp.ipk) {
+            listMhs[j] =  listMhs[j  -  1];
+            j--;
         }
-        ```
+        listMhs[j] =  tmp;
+    }
+    ```
 	
 ## 5.5 Latihan Praktikum
 Solusi ini diimplementasikan dalam `Dosen.java`, `DataDosen.java`, dan `DosenDemo.java`, dan berikut adalah tangkapan layar hasil program :
