@@ -33,6 +33,7 @@
 
 ### 5.3 Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer
 ### 5.3.2. Verifikasi Hasil Percobaan
+
 ![Output](../img/Pangkat.png)
 
 ### 5.3.3 Pertanyaan
@@ -73,7 +74,7 @@
 5. Metode totalDC() menggunakan pendekatan divide and conquer dengan membagi array menjadi dua bagian hingga mencapai base case (satu elemen). Setelah itu, hasil dari kedua bagian dijumlahkan kembali untuk mendapatkan total keseluruhan. Proses ini memastikan perhitungan dilakukan secara efisien dengan cara memecah dan menggabungkan hasilnya secara bertahap.
 
 ## 4.5 Latihan Praktikum
-1. Solusi ini diimplementasikan dalam `Tugas.java` dan `MainTugas.java`, dan berikut adalah tangkapan layar hasil program:
+Solusi ini diimplementasikan dalam `Tugas.java` dan `MainTugas.java`, dan berikut adalah tangkapan layar hasil program:
 
 ![Output](../img/Tugas.png)
 
