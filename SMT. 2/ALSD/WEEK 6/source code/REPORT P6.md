@@ -114,8 +114,7 @@ Proses tersebut bertujuan untuk mencari nilai IPK terkecil dari `listMhs` dalam 
 
 #### 5.4.3 Pertanyaan
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
-
-    ```java
+```java
     for (int  i  =  1; i  <  listMhs.length; i++) {
         Mahasiswa19  tmp  =  listMhs[i];
         int  j  =  i;
@@ -125,7 +124,7 @@ Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses 
         }
         listMhs[j] =  tmp;
     }
-    ```
+```
 	
 ## 5.5 Latihan Praktikum
 Solusi ini diimplementasikan dalam `Dosen.java`, `DataDosen.java`, dan `DosenDemo.java`, dan berikut adalah tangkapan layar hasil program :
