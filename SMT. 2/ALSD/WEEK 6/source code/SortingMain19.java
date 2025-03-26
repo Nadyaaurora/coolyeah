@@ -6,7 +6,7 @@ public class SortingMain19 {
         System.out.println("Data awal 1");
         dataurut1.tampil();
         dataurut1.bubbleSort();
-        System.out.println("Data setelah diurutkan dengan BUBBLE SORT (ASC)");
+        System.out.println("Data setelah diurutkan dengan BUBBLE SORT (ASC) : ");
         dataurut1.tampil();
     }
 }
