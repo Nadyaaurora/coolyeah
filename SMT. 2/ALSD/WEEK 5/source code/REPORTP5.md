@@ -33,7 +33,6 @@
 
 ### 5.3 Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer
 ### 5.3.2. Verifikasi Hasil Percobaan
-
 ![Output](../img/Pangkat.png)
 
 ### 5.3.3 Pertanyaan
