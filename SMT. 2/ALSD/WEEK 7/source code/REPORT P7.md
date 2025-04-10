@@ -47,7 +47,7 @@
         return findBinarySearch(cari, mid + 1, right);
     }
     ```
-Sebelumnya pakai `>` karena data diurutkan dari yang terkecil ke terbesar (ascending), namun sekarang diganti jadi `<` karena data diurut dari yang terbesar ke terkecil (descending).
+    Sebelumnya pakai `>` karena data diurutkan dari yang terkecil ke terbesar (ascending), namun sekarang diganti jadi `<` karena data diurut dari yang terbesar ke terkecil (descending).
 
 5. Bagian yang dimodifikasi adalah input jumlah mahasiswa. Awalnya ditulis langsung sebagai angka tetap, lalu diubah menjadi input dari keyboard menggunakan Scanner. Nilai input ini juga digunakan untuk menentukan ukuran array saat membuat objek MahasiswaBerprestasi19. Berikut hasil modifikasi kode program : 
     ```java
@@ -59,7 +59,7 @@ Sebelumnya pakai `>` karena data diurutkan dari yang terkecil ke terbesar (ascen
 
 ## 6.5. Latihan Praktikum
 
-Solusi ini diimplementasikan dalam `Dosen19.java`, `DataDosen19.java`, dan `DosenDemo19.java`, dan berikut adalah contoh hasil output program:
+Solusi ini diimplementasikan dalam `Dosen19.java`, `DataDosen19.java`, dan `DosenDemo19.java`, dan berikut adalah contoh hasil output program :
 
 ![Output](../img/Latihan%20Praktikum.png)
 
