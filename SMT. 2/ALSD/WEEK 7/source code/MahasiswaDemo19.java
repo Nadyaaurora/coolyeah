@@ -41,13 +41,13 @@ public class MahasiswaDemo19 {
         System.out.println("------------------------------------");
         System.out.println("Masukkan IPK mahasiswa yang dicari: ");
         System.out.print("IPK : ");
-        double cari = sc.nextDouble();
+        double cari2 = sc.nextDouble();
         System.out.println("------------------------------------");
         System.out.println("Menggunakan binary search");
         System.out.println("------------------------------------");
-        double posisi2 = list.findBinarySearch(cari, 0, jumMhs - 1);
+        double posisi2 = list.findBinarySearch(cari2, 0, jumMhs - 1);
         int pss2 = (int)posisi2;
-        list.tampilPosisi(cari, pss2);
+        list.tampilPosisi(cari2, pss2);
         list.tampilDataSearch(cari, pss2);
     }
 }
