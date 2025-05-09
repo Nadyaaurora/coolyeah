@@ -7,7 +7,7 @@ public class StackSurat {
        stack = new Surat19[size];
        top = -1;
    }
-
+   
    public boolean isFull() {
        return top == size - 1;
    }

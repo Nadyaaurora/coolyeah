@@ -37,7 +37,7 @@ public class SuratDemo19{
                     stack.push(surat);
                     System.out.println("Surat berhasil ditambahkan.");
                     break;
-
+                    
                 case 2:
                     Surat19 proses = stack.pop();
                     if (proses != null) {
