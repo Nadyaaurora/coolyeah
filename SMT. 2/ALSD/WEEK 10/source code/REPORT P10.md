@@ -45,7 +45,7 @@
    ![add](../img/case6.png)
 
 6. Commit dan push ke github
-   [link!](https://github.com/Nadyaaurora/coolyeah/tree/main/SMT.%202/ALSD/WEEK%2010)
+   [link!] (https://github.com/Nadyaaurora/coolyeah/tree/main/SMT.%202/ALSD/WEEK%2010)
 
 ## 2.2 Percobaan 2: Konversi Nilai Tugas ke Biner 
 ### 2.2.2 Verifikasi Hasil Percobaan
