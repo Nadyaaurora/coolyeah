@@ -30,6 +30,7 @@
 	  ![modify](../img/ModifyStack4.png)	
 
 	- menambah case di class `MahasiswaDemo19`
+
 	  ![add](../img/menu5.png)
 
 	  ![add](../img/case5.png)
@@ -38,12 +39,13 @@
    ![add](../img/AddStack5.png)
 
    Menambah case di class `MahasiswaDemo19`
+
    ![add](../img/menu6.png)
 
    ![add](../img/case6.png)
 
 6. Commit dan push ke github
-   ![link](https://github.com/Nadyaaurora/coolyeah/tree/main/SMT.%202/ALSD/WEEK%2010)
+   [link!](https://github.com/Nadyaaurora/coolyeah/tree/main/SMT.%202/ALSD/WEEK%2010)
 
 ## 2.2 Percobaan 2: Konversi Nilai Tugas ke Biner 
 ### 2.2.2 Verifikasi Hasil Percobaan
@@ -56,6 +58,7 @@
 
 ## 2.4 Latihan Praktikum
 Solusi ini diimplementasikan dalam tiga class `Surat19.java`, `StackSurat.java`, dan `SuratDemo19.java` dan berikut adalah contoh hasil output program :
+
 ![Output](../img/Tugas%20(1).png)
 
 ![Output](../img/Tugas%20(2).png)
