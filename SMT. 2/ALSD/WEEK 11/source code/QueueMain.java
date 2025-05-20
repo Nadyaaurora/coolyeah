@@ -22,16 +22,24 @@ public class QueueMain {
             pilih = sc.nextInt();
             switch (pilih) {
                 case 1:
-                    System.out.print("Masukkan data baru : ");
+                    System.out.print("Masukkan data baru: ");
                     int dataMasuk = sc.nextInt();
-                    Q.Enqueue(dataMasuk);
+                    if (Q.IsFull()) {
+                        System.out.println("Queue sudah penuh. Program dihentikan!");
+                        return;  
+                    } else {
+                        Q.Enqueue(dataMasuk);
+                    }
                     break;
                 case 2:
-                    int dataKeluar = Q.Dequeue();
-                    if (dataKeluar != 0) {
-                        System.out.println("Data yang dikeluarkan : " + dataKeluar);
-                        break;
+                    if (Q.IsEmpty()) {
+                        System.out.println("Queue masih kosong. Program dihentikan!");
+                        return; 
+                    } else {
+                        int dataKeluar = Q.Dequeue();
+                        System.out.println("Data yang dikeluarkan: " + dataKeluar);
                     }
+                    break;
                 case 3:
                     Q.print();
                     break;
@@ -41,6 +49,8 @@ public class QueueMain {
                 case 5:
                     Q.clear();
                     break;
+                default:
+                    System.out.println("Pilihan tidak valid!");
             }
         } while (pilih == 1 || pilih == 2 || pilih ==3 || pilih == 4 || pilih == 5);
     }
