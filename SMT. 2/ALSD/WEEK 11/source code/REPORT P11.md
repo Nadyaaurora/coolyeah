@@ -39,6 +39,7 @@
 ### 2.2.3 Pertanyaan
 Lakukan modifikasi program dengan menambahkan method baru bernama LihatAkhir pada class AntrianLayanan yang digunakan untuk mengecek antrian yang berada di posisi belakang. Tambahkan pula daftar menu 6. Cek Antrian paling belakang pada class LayananAkademikSIAKAD sehingga method LihatAkhir dapat dipanggil!
 - Menambahkan menu
+
     ![Output](../img/modify%20menu(1).png)
 
     ![Output](../img/modify%20case.png)
@@ -49,20 +50,20 @@ Lakukan modifikasi program dengan menambahkan method baru bernama LihatAkhir pad
 
 -Hasil Run
 
-    ![Output](../img/run%20modify%20antrian.png)
+![Output](../img/run%20modify%20antrian.png)
 
 ## 2.4 Latihan Praktikum
 Solusi ini diimplementasikan dalam dua class: `AntrianKRS` dan `LayananKRSMain` dan berikut adalah contoh hasil output program :
 
-    ![Output](../img/Tugas(1).png)
+![Output](../img/Tugas(1).png)
 
-    ![Output](../img/Tugas(2).png)
+![Output](../img/Tugas(2).png)
 
-    ![Output](../img/Tugas(3).png)
+![Output](../img/Tugas(3).png)
 
-    ![Output](../img/Tugas(4).png)
+![Output](../img/Tugas(4).png)
 
-    ![Output](../img/Tugas(5).png)
+![Output](../img/Tugas(5).png)
 
 Langkah-langkah utama dalam program ini:
 1. Menyimpan data mahasiswa dalam antrian dengan kapasitas maksimal 10 menggunakan konsep circular queue.
