@@ -16,6 +16,7 @@ public class Mahasiswa00 {
     }
 
     public void tampilInformasi() {
-        System.out.println("NIM: " + nim + ", Nama: " + nama + ", Kelas: " + kelas + ", IPK: " + ipk);
+        System.out.print(nama + "\t\t" + nim + "\t\t" + kelas + "\t\t" + ipk);
+        System.out.println();
     }
 }
