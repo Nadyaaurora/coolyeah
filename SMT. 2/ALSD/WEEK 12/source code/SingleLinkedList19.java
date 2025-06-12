@@ -1,13 +1,13 @@
-public class SingleLinkedList00 {
-    NodeMahasiswa00 head;
-    NodeMahasiswa00 tail;
+public class SingleLinkedList19 {
+    NodeMahasiswa19 head;
+    NodeMahasiswa19 tail;
     
     boolean isEmpty() {
         return (head == null);
     }
     public void print() {
         if (!isEmpty()) {
-            NodeMahasiswa00 tmp = head;
+            NodeMahasiswa19 tmp = head;
             System.out.print("Isi Linked List: \n");
             while (tmp != null) {
                 tmp.data.tampilInformasi();
@@ -18,8 +18,8 @@ public class SingleLinkedList00 {
             System.out.println("Linked List Kosong");
         }
     }
-    public void addFirst(Mahasiswa00 input) {
-        NodeMahasiswa00 ndInput = new NodeMahasiswa00(input, null);
+    public void addFirst(Mahasiswa19 input) {
+        NodeMahasiswa19 ndInput = new NodeMahasiswa19(input, null);
         if (isEmpty()) {
             head = ndInput;
             tail = ndInput;
@@ -28,8 +28,8 @@ public class SingleLinkedList00 {
             head = ndInput;
         }
     }
-    public void addLast(Mahasiswa00 input) {
-        NodeMahasiswa00 ndInput = new NodeMahasiswa00(input, null);
+    public void addLast(Mahasiswa19 input) {
+        NodeMahasiswa19 ndInput = new NodeMahasiswa19(input, null);
         if (isEmpty()) {
             head = ndInput;
             tail = ndInput;
@@ -38,9 +38,9 @@ public class SingleLinkedList00 {
             tail = ndInput;
         }
     }
-    public void insertAfter(String key, Mahasiswa00 input) {
-        NodeMahasiswa00 ndInput = new NodeMahasiswa00(input, null);
-        NodeMahasiswa00 temp = head;
+    public void insertAfter(String key, Mahasiswa19 input) {
+        NodeMahasiswa19 ndInput = new NodeMahasiswa19(input, null);
+        NodeMahasiswa19 temp = head;
         do {
             if (temp.data.nama.equalsIgnoreCase(key)) {
                 ndInput.next = temp.next;
@@ -53,17 +53,17 @@ public class SingleLinkedList00 {
             temp = temp.next;
         } while (temp != null);
     }
-    public void insertAt(int index, Mahasiswa00 input) {
+    public void insertAt(int index, Mahasiswa19 input) {
         if (index < 0) {
             System.out.println("indeks salah");
         } else if (index == 0) {
             addFirst(input);
         } else {
-            NodeMahasiswa00 temp = head;
+            NodeMahasiswa19 temp = head;
             for (int i = 0; i < index - 1; i++) {
                 temp = temp.next;
             }
-            temp.next = new NodeMahasiswa00(input, temp.next);
+            temp.next = new NodeMahasiswa19(input, temp.next);
             if (temp.next.next == null) {
                 tail = temp.next;
             }
