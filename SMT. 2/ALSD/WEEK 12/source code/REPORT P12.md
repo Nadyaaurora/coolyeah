@@ -16,6 +16,7 @@
 1. Karena pada saat program dijalankan, pemanggilan `sll.print();` dilakukan sebelum data apapun ditambahkan ke dalam linked list.
 2. Variabel temp digunakan sebagai penunjuk yang bisa bergerak dari satu node ke node berikutnya dalam linked list. Karena head tidak boleh digeser, kita memakai temp untuk menelusuri isi linked list saat ingin mencari node tertentu, menambahkan data di tengah, atau mencetak semua data. Dengan begitu, struktur utama linked list tetap aman dan tidak berubah.
 3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
+
     ![Output](../img/Pertanyaan3.png)
 
 ## 2.2 Modifikasi Elemen pada Single Linked List
