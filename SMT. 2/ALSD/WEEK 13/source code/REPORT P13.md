@@ -21,12 +21,14 @@
 4. Jika list kosong, node baru menjadi `head` sekaligus `tail`. Tapi, jika tidak kosong, node baru akan menjadi head dan menghubungkan ke node sebelumnya (`head.prev = newNode`).
 5. Menghubungkan node lama (`head`) ke node baru di depannya (`newNode`) melalui pointer `prev`.
 6. Ditambahkan untuk pengecekan melalui 
+
 ``java
 if (isEmpty()) {
     System.out.println("Linked List masih kosong.");
 } else {
 }
 ``
+
 7. newNode akan dimasukkan setelah node current, sehingga kode current.next.prev = newNode; digunakan untuk menyambungkan pointer prev dari node setelah current (yaitu current.next) ke newNode.
 8. Modifikasi menu pilihan dan switch-case agar fungsi insertAfter() masuk ke dalam menu pilihan dan dapat berjalan dengan baik.
 - Memodifikasi class DLLMain.java
