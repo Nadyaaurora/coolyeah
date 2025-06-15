@@ -27,10 +27,10 @@
     } else {
     }
     ```
-7. newNode akan dimasukkan setelah node current, sehingga kode current.next.prev = newNode; digunakan untuk menyambungkan pointer prev dari node setelah current (yaitu current.next) ke newNode.
+7. newNode akan dimasukkan setelah node current, sehingga kode current.next.prev = newNode; digunakan untuk menyambungkan pointer prev dari node setelah current (current.next) ke newNode.
 8. Modifikasi menu pilihan dan switch-case agar fungsi insertAfter() masuk ke dalam menu pilihan dan dapat berjalan dengan baik.
-- Memodifikasi class DLLMain.java
-    ![Output](../img/ModifNo8.png)
+    - Memodifikasi class DLLMain.java
+        ![Output](../img/ModifNo8.png)
 
 ## 12.3 Kegiatan Praktikum 2
 ### 12.3.2 Verifikasi Hasil Percobaan
@@ -39,8 +39,8 @@
 ### 12.3.3 Pertanyaan Percobaan
 1. Kode `head = head.next;` berfungsi untuk memindahkan posisi head ke node berikutnya karena node pertama akan dihapus. Setelah head pindah, kita perlu memutus hubungan ke node sebelumnya agar tidak bisa diakses lagi, jadi `head.prev = null;` digunakan untuk memutus koneksi tersebut. Dengan begitu, node lama yang tadinya di awal list benar-benar terlepas dari daftar dan siap dihapus oleh sistem.
 2. Modifikasi kode program untuk menampilkan pesan “Data sudah berhasil dihapus. Data yang terhapus adalah … “
-- Memodifikasi clas DoubleLinkedList01.java 
-    ![Output](../img/ModifNo2.png)
+    - Memodifikasi clas DoubleLinkedList01.java 
+        ![Output](../img/ModifNo2.png)
 
 ## TUGAS
 Solusi ini diimplementasikan dalam dua class: `DoubleLinkedList01`, `DLLMain` dan berikut adalah contoh hasil output program :
