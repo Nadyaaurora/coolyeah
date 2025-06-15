@@ -35,8 +35,7 @@ public class DoubleLinkedList01 {
 
    public void insertAfter(String keyNim, Mahasiswa01 data) {
       Node01 current = head;
-
-      // Cari node dengan nim = keyNim
+      // cari node dengan nim = key
       while (current != null && !current.data.nim.equals(keyNim)) {
          current = current.next;
       }
@@ -45,12 +44,13 @@ public class DoubleLinkedList01 {
          return;
       }
       Node01 newNode = new Node01(data);
+      // jika current adalah tail, tambahkan di akhir
       if (current == tail) {
          current.next = newNode;
          newNode.prev = current;
          tail = newNode;
       } else {
-         // Sisipkan di tengah
+         // sisipkan di tengah
          newNode.next = current.next;
          newNode.prev = current;
          current.next = newNode;
@@ -71,6 +71,9 @@ public class DoubleLinkedList01 {
       if (isEmpty()) {
          System.out.println("List kosong, tidak bisa dihapus.");
          return;
+      } else {
+         System.out.println("Data yang terhapus adalah : ");
+         head.data.tampil();
       }
       if (head == tail) {
          head = tail = null;
@@ -78,6 +81,7 @@ public class DoubleLinkedList01 {
          head = head.next;
          head.prev = null;
       }
+      System.out.println("Data sudah berhasil dihapus.");
    }
 
    public void removeLast() {
@@ -112,17 +116,21 @@ public class DoubleLinkedList01 {
       } else if (index > size()) {
          System.out.println("Indeks melebihi batas maksimal.");
       } else {
-         Node01 current = head;
+         Node01 temp = head;
          for (int i = 0; i < index - 1; i++) {
-            current = current.next;
+            temp = temp.next;
          }
          Node01 newNode = new Node01(data);
-         newNode.prev = current;
-         newNode.next = current.next;
-         current.next.prev = newNode;
-         current.next = newNode;
+         newNode.prev = temp;
+         newNode.next = temp.next;
+
+         if (temp.next != null) {
+            temp.next.prev = newNode;
+         } else {
+            tail = newNode; 
+         }
+         temp.next = newNode;
       }
-      // insertAfter(current.data.nim);
    }
 
    int size() {
@@ -136,22 +144,21 @@ public class DoubleLinkedList01 {
    }
 
    public void removeAfter(String key) {
-      if (isEmpty()) {
-         System.out.println("Tidak ada data!");
+       Node01 temp = head;
+      while (temp != null && !temp.data.nim.equalsIgnoreCase(key)) {
+         temp = temp.next;
+      }
+      if (temp == null) {
+         System.out.println("data " + key + " tidak ditemukan");
+      } else if (temp == tail) {
+         System.out.println("tidak ada data setelah " + key + " karena data tersebut adalah data terakhir");
       } else {
-         Node01 current = head;
-         while (current != null) {
-            if (current.data.nim.equals(key)) {
-               if (current.next == tail)
-                  removeLast();
-               else {
-                  current.next = current.next.next;
-                  current.next.prev = current;
-               }
-               break;
-            } else {
-               current = current.next;
-            }
+         if (temp.next == tail) {
+            removeLast();
+         } else {
+            System.out.println("data berhasil dihapus. data yang terhapus adalah NIM: " + temp.next.data.nim);
+            temp.next = temp.next.next;
+            temp.next.prev = temp;
          }
       }
    }
