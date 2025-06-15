@@ -40,7 +40,7 @@ Solusi ini diimplementasikan dalam 4 class: `Mahasiswa19`, `NodeMahasiswa19`, `A
 
 Langkah-langkah utama dalam program ini:
 - Menyimpan data mahasiswa yang mendaftar ke layanan unit kemahasiswaan dalam antrian berbasis _Linked List_.
-- Menambahkan mahasiswa ke antrian*selama antrian belum kosong dan input valid.
+- Menambahkan mahasiswa ke antrian selama antrian belum kosong dan input valid.
 - Memanggil/melayani mahasiswa dari antrian satu per satu dari antrian terdepan (_dequeue_).
 - Menampilkan mahasiswa paling depan dan paling belakang dari antrian.
 - Menampilkan jumlah mahasiswa yang sedang mengantre dalam antrian.
