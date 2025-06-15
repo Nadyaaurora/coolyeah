@@ -91,7 +91,7 @@ public class SingleLinkedList19 {
     }
     public void removeFirst() {
         if (isEmpty()) {
-            // System.out.println("Linked List masih kosong, tidak dapat dihapus!");
+            System.out.println("Linked List masih kosong, tidak dapat dihapus!");
         } else if (head == tail) {
             head = tail = null;
         } else {
@@ -100,7 +100,7 @@ public class SingleLinkedList19 {
     }
     public void removeLast() {
         if (isEmpty()) {
-            // System.out.println("Linked List masih kosong, tidak dapat dihapus!");
+            System.out.println("Linked List masih kosong, tidak dapat dihapus!");
         } else if (head == tail) {
             head = tail = null;
         } else {
@@ -114,7 +114,7 @@ public class SingleLinkedList19 {
     }
     public void remove(String key) {
         if (isEmpty()) {
-            // System.out.println("Linked List masih kosong, tidak dapat dihapus!");
+            System.out.println("Linked List masih kosong, tidak dapat dihapus!");
         } else {
             NodeMahasiswa19 temp = head;
             while (temp != null) {
