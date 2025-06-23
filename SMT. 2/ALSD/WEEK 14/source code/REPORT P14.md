@@ -49,6 +49,7 @@ Solusi ini diimplementasikan dalam dua class utama:
 2.  BinaryTreeArray19 dan BinaryTreeArrayMain19 untuk struktur Binary Tree (menggunakan Array)
     
 Berikut adalah hasil output program:
+
 **Contoh Output Binary Tree (Linked List):**
 
   ![Output](../img/BinaryTree(1).png)
