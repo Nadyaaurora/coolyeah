@@ -4,17 +4,19 @@ public class BinaryTree19 {
     public BinaryTree19() {
         root = null;
     }
+
     public boolean isEmpty() {
         return root == null;
     }
-    public void add (Mahasiswa19 mahasiswa) {
+
+    public void add(Mahasiswa19 mahasiswa) {
         Node19 newNode = new Node19(mahasiswa);
         if (isEmpty()) {
             root = newNode;
         } else {
             Node19 current = root;
             Node19 parent = null;
-            while(true) {
+            while (true) {
                 parent = current;
                 if (mahasiswa.ipk < current.mahasiswa.ipk) {
                     current = current.left;
@@ -32,6 +34,7 @@ public class BinaryTree19 {
             }
         }
     }
+
     boolean find(double ipk) {
         boolean result = false;
         Node19 current = root;
@@ -47,6 +50,7 @@ public class BinaryTree19 {
         }
         return result;
     }
+
     void traversePreOrder(Node19 node) {
         if (node != null) {
             node.mahasiswa.tampilInformasi();
@@ -54,6 +58,7 @@ public class BinaryTree19 {
             traversePreOrder(node.right);
         }
     }
+
     void traverseInOrder(Node19 node) {
         if (node != null) {
             traverseInOrder(node.left);
@@ -61,6 +66,7 @@ public class BinaryTree19 {
             traverseInOrder(node.right);
         }
     }
+
     void traversePostOrder(Node19 node) {
         if (node != null) {
             traversePostOrder(node.left);
@@ -68,6 +74,7 @@ public class BinaryTree19 {
             node.mahasiswa.tampilInformasi();
         }
     }
+
     Node19 getSuccessor(Node19 del) {
         Node19 successor = del.right;
         Node19 successorParent = del;
@@ -81,12 +88,13 @@ public class BinaryTree19 {
         }
         return successor;
     }
+
     void delete(double ipk) {
         if (isEmpty()) {
             System.out.println("Binary tree kosong");
             return;
         }
-        //cari node (current) yang akan dihapus
+        // cari node (current) yang akan dihapus
         Node19 parent = root;
         Node19 current = root;
         boolean isLeftChild = false;
@@ -107,18 +115,18 @@ public class BinaryTree19 {
             System.out.println("Data tidak ditemukan");
             return;
         } else {
-            //jika tidak ada anak (leaf), maka node dihapus
+            // jika tidak ada anak (leaf), maka node dihapus
             if (current.left == null && current.right == null) {
                 if (current == root) {
                     root = null;
-                } else{
+                } else {
                     if (isLeftChild) {
                         parent.left = null;
                     } else {
                         parent.right = null;
                     }
                 }
-            } else if(current.left == null) { //Jika hanya punya 1 anak (kanan)
+            } else if (current.left == null) { // Jika hanya punya 1 anak (kanan)
                 if (current == root) {
                     root = current.right;
                 } else {
@@ -128,7 +136,7 @@ public class BinaryTree19 {
                         parent.right = current.right;
                     }
                 }
-            } else if(current.right == null) { //Jika hanya punya 1 anak (kiri)
+            } else if (current.right == null) { // Jika hanya punya 1 anak (kiri)
                 if (current == root) {
                     root = current.left;
                 } else {
@@ -138,7 +146,7 @@ public class BinaryTree19 {
                         parent.right = current.left;
                     }
                 }
-            } else { //jika punya 2 anak
+            } else { // jika punya 2 anak
                 Node19 successor = getSuccessor(current);
                 System.out.println("Jika 2 anak, current = ");
                 successor.mahasiswa.tampilInformasi();
@@ -153,6 +161,56 @@ public class BinaryTree19 {
                 }
                 successor.left = current.left;
             }
+        }
+    }
+
+    public void addRekursif(Mahasiswa19 data) {
+        root = addRekursif(root, data);
+    }
+
+    private Node19 addRekursif(Node19 current, Mahasiswa19 data) {
+        if (current == null) {
+            return new Node19(data);
+        }
+        if (data.ipk < current.mahasiswa.ipk) {
+            current.left = addRekursif(current.left, data);
+        } else {
+            current.right = addRekursif(current.right, data);
+        }
+        return current;
+    }
+
+    public Mahasiswa19 cariMinIPK() {
+        if (isEmpty())
+            return null;
+        Node19 current = root;
+        while (current.left != null) {
+            current = current.left;
+        }
+        return current.mahasiswa;
+    }
+
+    public Mahasiswa19 cariMaxIPK() {
+        if (isEmpty())
+            return null;
+        Node19 current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        return current.mahasiswa;
+    }
+
+    public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        tampilMahasiswaIPKdiAtas(root, ipkBatas);
+    }
+
+    private void tampilMahasiswaIPKdiAtas(Node19 node, double ipkBatas) {
+        if (node != null) {
+            tampilMahasiswaIPKdiAtas(node.left, ipkBatas);
+            if (node.mahasiswa.ipk > ipkBatas) {
+                node.mahasiswa.tampilInformasi();
+            }
+            tampilMahasiswaIPKdiAtas(node.right, ipkBatas);
         }
     }
 }
