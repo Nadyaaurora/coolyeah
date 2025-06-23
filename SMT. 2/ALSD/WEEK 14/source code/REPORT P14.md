@@ -18,9 +18,11 @@
 1. Karena pada BST, data disusun terurut (left child < root < right child), sehingga pencarian bisa dilakukan lebih cepat dengan membandingkan nilai dan hanya menyusuri satu sisi subtree dengan aturannya dimana left child harus lebih kecil daripada right child
 2. Atribut left untuk pointer ke anak kiri dari node, sedangkan atribut right untuk pointer ke anak kanan dari node
 3. a. Untuk apakah kegunaan dari atribut root di dalam class BinaryTree? 
+
 		- Kegunaan atribut root adalah untuk menandai node paling atas dalam struktur binary tree, yang menjadi induk dari semua node lainnya dan menjadi titik awal dalam proses traversal, pencarian, penambahan, dan penghapusan data.
-        
+
 	b. Ketika objek tree pertama kali dibuat, apakah nilai dari root?
+    
 		- Saat objek tree pertama kali dibuat, nilai dari root adalah null karena belum ada data yang dimasukkan ke dalam tree. Nilai root baru akan terisi ketika node pertama ditambahkan, dan node itu akan menjadi akar dari tree tersebut.
 4. Ketika tree masih kosong, artinya nilai root masih null. Saat sebuah node baru akan ditambahkan, node tersebut akan langsung ditempatkan sebagai root, karena belum ada node lain dalam tree. Node ini akan menjadi titik awal atau akar dari seluruh struktur binary tree
 5. Pertama, pada kode tersebut kita membuat variabel parent dari nilai current, sehingga kita bisa menyimpan node induk dari node yang sedang diakses. Setelah itu dilakukan pengkondisian: apabila mahasiswa.ipk yang ingin ditambahkan lebih kecil daripada ipk dari mahasiswa pada node current, maka current diperbarui menjadi current.left. Kemudian dicek apakah current sekarang bernilai null. Jika ya, maka parent.left akan dihubungkan dengan newNode sehingga node baru ini menjadi anak kiri dari parent. Namun jika mahasiswa.ipk yang akan ditambahkan lebih besar daripada ipk pada node current, maka current diperbarui menjadi current.right. Setelah itu dilakukan pengecekan apakah current bernilai null. Jika ya, maka parent.right akan dihubungkan dengan newNode sehingga node baru menjadi anak kanan dari parent.
